@@ -1,0 +1,79 @@
+.main
+{
+	width: 1478px;
+	height: 740px;
+	border: 5px solid green;
+	border-radius: 16px;
+	background-color: honeydew;
+	margin-left: 30px;
+}
+::selection
+{
+		background-color: cadetblue;
+		color: black;
+}
+
+header
+{
+	background-color: teal;
+	height: 80px;
+	
+}
+header a{
+ 
+  			text-decoration: none;
+  			padding-top: -5px;
+  			background-color: black;
+  			color: white;
+}
+header #name
+{
+	text-align: center;
+	color: yellowgreen;
+	font-size: 35px;
+	font-family: bold;
+	font-weight: 900;
+}
+header .about
+{
+	color: white;
+	margin-top: -12px;
+	font-size: 25px;
+}
+img
+{
+	height: 300px;
+	width: 10px;
+}
+.body
+{
+	float: left;
+	
+}
+.main .facts
+{
+	width: 62%;
+	height: 80%;
+	color: blue;
+	float: right;
+
+	margin-top: 13px;
+	text-align: justify;
+	margin-right: 9px;
+}
+.main .facts :hover
+{
+	color: black;
+}
+th 
+{
+	color: firebrick;
+}
+.point table tr td :hover{
+	color: yellowgreen;
+}
+
+.facts p{
+	color: chocolate;
+	font-size: 25px;
+}
